@@ -35,7 +35,7 @@ Database::~Database () {
 rocksdb::Status Database::OpenDatabase (
         rocksdb::Options* options
     ) {
-  return rocksdb::DB::Open(*options, **location, &db);
+  return rocksdb::DB::OpenForReadOnly(*options, **location, &db);
 }
 
 rocksdb::Status Database::PutToDatabase (
