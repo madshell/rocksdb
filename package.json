@@ -1,6 +1,6 @@
 {
-  "name": "rocksdb",
-  "description": "A Node.js RocksDB binding, a backend for LevelUP",
+  "name": "rocksdb-readonly",
+  "description": "A Node.js RocksDB binding, a backend for LevelUP - open DB for read-only",
   "version": "3.0.1",
   "repository": {
     "type": "git",
